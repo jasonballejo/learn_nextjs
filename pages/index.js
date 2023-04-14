@@ -17,7 +17,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Get started by editing <code>pages/index.js</code>
+          Get started by going to <a href="https://apple.com">Apple</a>
         </p>
 
         <div className={styles.grid}>
