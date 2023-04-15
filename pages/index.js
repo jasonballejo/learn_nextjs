@@ -17,7 +17,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Get started by going to <a href="https://apple.com">Apple</a>
+          Get started by going to <a href="https://nextjs.org/">NEXT.JS</a>
         </p>
 
         <div className={styles.grid}>
