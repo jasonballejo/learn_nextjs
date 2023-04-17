@@ -4,6 +4,7 @@ import utilStyles from '../styles/Utils.module.css';
 import { getSortedPostsData } from '../lib/posts';
 import Link from 'next/link';
 import Date from '../components/date';
+import Image from 'next/image';
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -34,6 +35,10 @@ export default function Home({ allPostsData }) {
         ))}
       </ul>
       </section>
+      <footer>
+        <h3>Test Image Imported</h3>
+        <Image src="/images/profile.jpg" alt="Large Image" width={72} height={16} />
+      </footer>
     </Layout>
   );
 }
